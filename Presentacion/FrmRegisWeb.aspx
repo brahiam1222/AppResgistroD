@@ -60,7 +60,7 @@
                     <td class="auto-style3" style="color:#FFFFFF" colspan="2">Registro WEB</td>
                 </tr>
                 <tr>
-                    <td class="auto-style15"><strong>Usuario</strong>:</td>
+                    <td class="auto-style15"><strong>Nombre</strong>:</td>
                     <td class="auto-style15">
                         <asp:TextBox ID="TextBox1" runat="server" Width="150px"></asp:TextBox>
                     </td>
