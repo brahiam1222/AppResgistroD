@@ -9,42 +9,31 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 22%;
+            width: 18%;
             height: 489px;
         }
         .auto-style3 {
             text-align: center;            
             background-color: #3344FF;
             font-weight:bold;
+            width:15%;
+            height:11%;
 
         }
-        .auto-style4{
+        .auto-style2{
             text-align: center;            
-            background-color: #ACB1DC;
+            background-color: #FFFFFF;
             font-weight:bold;
-
+            width:15%;
+            height:11%;
         }
-        .auto-style6 {
-            position: relative;
-        }
-        .auto-style12 {
-            width: 150px;
-            height: 28px;
-            background-color: #FFFFFF;
-        }
-        .auto-style13 {
-            height: 28px;
-            background-color: #FFFFFF;
-        }
-        .auto-style14 {
-            width: 145px;
-            height: 104px;
-        }
+                
         .Button-Style1{
             font-weight:bold;
             background-color:#3344FF;
             font-family:'Times New Roman';
             font-size:12px;
+            border-radius: 50px;
         }
         
         .auto-style15 {
@@ -52,9 +41,13 @@
             background-color: #FFFFFF;
             height: 29px;
             font-family:Arial;
-            font-size:17px;
+            font-size:12px;
             text-align:center;
             
+        }
+                
+        .auto-style16 {
+            width: 144px;
         }
                 
     </style>
@@ -105,7 +98,7 @@
                 <tr>
                     <td class="auto-style15"><strong class="auto-style6">Informacion:</strong></td>
                     <td class="auto-style15">
-                        <textarea id="TextArea1" class="auto-style14" name="S1"></textarea></td>
+                        <textarea id="TextArea1" class="auto-style16" name="S1"></textarea></td>
                 </tr>
                 <tr>
                     <td class="auto-style15"><strong>Sexo:</strong></td>
@@ -120,17 +113,17 @@
                         <asp:DropDownList ID="DropDownList2" runat="server" Height="17px" Width="148px">
                         </asp:DropDownList>
                     </td>
+               
+                <tr>
+                    <th class="auto-style2" style="color:#FFFFFF">
+                        <asp:Button ID="Button1" Style="font-family:'Times New Roman';font-weight:bold;font-size:21px; background-color:#3344FF; color:#FFFFFF" runat="server" Text="Guardar" />
+                    </th>
+                    <th class="auto-style2" style="color:#FFFFFF">
+                        <asp:Button ID="Button2" Style="font-family:'Times New Roman';font-weight:bold; font-size:21px; background-color:#3344FF; color:#FFFFFF" runat="server" Text="Nuevo" />
+                    </th>
                 </tr>
-                <tr>
-                    <td class="auto-style12">
-                        &nbsp;</td>
-                    <td class="auto-style13">
-                        &nbsp;</td>
-                </tr>>
-                <tr>
-                    <td class="auto-style4" colspan="2">
-                        <asp:Button ID="Button1" style="position:absolute;left:585px;top:445px; font-weight:bold; font-family:Arial; background-color:#3344FF" CssClass="btn btn-secondary" runat="server" Text="Guardar" />
-                    </td>
+                
+                   
                 </tr>
             </table>
         </div>
